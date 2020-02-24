@@ -5,13 +5,25 @@ body{
 .container .navbar{
     padding: 20px 0;
     color: gray;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
 }
 .navbar img{
     width: 130px;
 }
-
+.carousel-inner{
+    background-image: url(images/bg-2.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background: cover;
+}
+.slider-bg{
+    padding-bottom: 50px;
+    background-image: url(images/bg-1.PNG);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background: cover;
+}
 .carousel-indicators li:first-child{
     width: 40px;
     height: 8px;
@@ -33,15 +45,12 @@ body{
     border-radius:5px;
     font-size: 13px;
 }
-.buy-now-btn span {
-    font-size: 20px;
-}
 .buy-now-btn:hover{
     text-decoration: none;
     color: #fff;
 }
-.common-bottom{
-    padding-bottom: 100px;
+.common-bottom, .slider-bg{
+    margin-bottom: 100px;
 }
 p{
     font-size: 13px;
@@ -87,3 +96,39 @@ p{
     margin: 10px auto;
     border-radius: 20px;
 }
+
+footer{
+    background: #fbfafa;
+    box-shadow: 5px 5px 10px darkgrey;
+    padding: 40px;
+}
+footer .nav-link {
+      display: block;
+      padding: .5rem 0;
+      color: #3d3d3d;
+  }
+footer .nav-link:hover {
+      color: orange
+  }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .slider-bg h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+   .slider-bg{
+       padding-bottom: 0;
+       background-image: none;
+       margin-bottom: 20px;
+   }
+   .carousel-inner{
+       background-image: none;
+   }
+   .buy-now-btn{
+    padding: 5px 10px;
+    font-size: 12px;
+    }
+    .cat2{
+        margin-top: 50px;
+    }
+  }
