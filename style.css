@@ -31,16 +31,14 @@ body{
     color: white;
     padding: 10px 20px;
     border-radius:5px;
-    font-size: 12px;
+    font-size: 13px;
+}
+.buy-now-btn span {
+    font-size: 20px;
 }
 .buy-now-btn:hover{
     text-decoration: none;
     color: #fff;
-}
-.buy-now-btn i{
-    margin-left: 7px;
-    transform: scale(1.5,1);
-    font-size: 10px;
 }
 .common-bottom{
     padding-bottom: 100px;
@@ -52,6 +50,7 @@ p{
 }
 .price{
     margin-bottom: 1.5rem;
+    font-weight: 600;
 }
 .card{
     border: none;
@@ -68,4 +67,23 @@ p{
 }
 .card-head h6{
     color: #FFA312;
+}
+.cat1 h5, .cat2 h5, .cat3 h5{
+    padding-top: 20px;
+    font-weight: 600;
+}
+.cat3{
+    margin-top: 50px;
+}
+.categories .card{
+    border-radius: 10px 0 10px 0;
+}
+.categories h3::after {
+    content: "";
+    background-image: linear-gradient(to right, rgb(243, 201, 87), #ffaf1b 50%);
+    width: 109px;
+    height: 6px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
 }
