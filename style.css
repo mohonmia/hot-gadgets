@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .container .navbar{
     padding: 20px 0;
     color: gray;
@@ -7,7 +11,6 @@
 .navbar img{
     width: 130px;
 }
-
 
 .carousel-indicators li:first-child{
     width: 40px;
@@ -27,8 +30,42 @@
     background: black;
     color: white;
     padding: 10px 20px;
-    border-radius:5px
+    border-radius:5px;
+    font-size: 12px;
+}
+.buy-now-btn:hover{
+    text-decoration: none;
+    color: #fff;
 }
 .buy-now-btn i{
-    margin-left: 5px;
+    margin-left: 7px;
+    transform: scale(1.5,1);
+    font-size: 10px;
+}
+.common-bottom{
+    padding-bottom: 100px;
+}
+p{
+    font-size: 13px;
+    color: gray;
+
+}
+.price{
+    margin-bottom: 1.5rem;
+}
+.card{
+    border: none;
+    box-shadow: 3px 5px 15px lightgray;
+    padding: 50px 0 30px 0;
+    border-radius: 5px;
+}
+.card-head{
+    padding-bottom: 20px;
+}
+.card-head h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.card-head h6{
+    color: #FFA312;
 }
